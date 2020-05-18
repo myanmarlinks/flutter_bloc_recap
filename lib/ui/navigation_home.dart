@@ -42,7 +42,7 @@ class NavigationHome extends StatelessWidget {
           FloatingActionButton(
             child: Icon(Icons.play_arrow),
             onPressed: () {
-              dataBloc.add(FetchData());
+              dataBloc..add(FetchData());
             },
           ),
         ],
